@@ -1,4 +1,4 @@
 def greet(name):
-    greeting = "Good day x 2"
-    message = f"{greeting}, {name}. Welcome to the system."
+    greeting = "Hey"
+    message = f"{greeting}, {name}! Great to see you."
     return message
