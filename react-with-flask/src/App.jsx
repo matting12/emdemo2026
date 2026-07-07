@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
+import EventList from './EventList'
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     });
   }, []);
 
+  
   return (
     <>
       <section id="center">
@@ -31,6 +33,7 @@ function App() {
         >
           Count is {count}
         </button>
+        <EventList/>
       </section>
 
      
